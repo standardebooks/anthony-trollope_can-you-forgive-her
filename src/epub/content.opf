@@ -47,14 +47,17 @@
 		<meta id="collection-1" property="belongs-to-collection">The Palliser Novels</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
 		<meta property="group-position" refines="#collection-1">1</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">A young woman is torn between marrying a man she loves and respects, and a man she once loved and now fears.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;This is the story of Alice Vavasor and her cousins. On her father’s side are Kate and George Vavasor, brother and sister. Alice and George had been passionately in love, but flaws in George’s character led her to break an engagement with him. As time passes, she falls in love with John Grey, and agrees to be his wife, except his placid character leaves her longing for something of the excitement of her previous lover. This engagement, too, is broken, in part through Kate’s efforts to bring Alice and George back together. But on Alice’s mother’s side, she is also cousin to Lady Glencora Palliser, recently married to Plantagenet Palliser, nephew and heir to the Duke of Omnium, and a rising man in Parliament. As Lady Glencora learns to look to Alice for support in the rocky early days of marriage, Alice herself is thrown into deeper doubt about the wisdom of her own choices.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Can You Forgive Her?&lt;/i&gt; is the first in the series of &lt;a href="https://standardebooks.org/ebooks/anthony-trollope"&gt;Anthony Trollope’s&lt;/a&gt; political novels, known collectively as the Palliser Novels. They serve in many ways to extend his earlier &lt;a href="https://standardebooks.org/collections/chronicles-of-barsetshire"&gt;Chronicles of Barsetshire&lt;/a&gt;: the Palliser family is already introduced there, especially in &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/anthony-trollope/doctor-thorne"&gt;Doctor Thorne&lt;/a&gt;&lt;/i&gt; and &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/anthony-trollope/the-small-house-at-allington"&gt;The Small House at Allington&lt;/a&gt;&lt;/i&gt;. In fact, Trollope completed this, the first of his “parliamentary” novels, in 1864, before embarking on &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/anthony-trollope/the-last-chronicle-of-barset"&gt;The Last Chronicle of Barset&lt;/a&gt;&lt;/i&gt; in 1866.&lt;/p&gt;
+			&lt;p&gt;While the Barchester books have the intrigues of provincial clergy and cathedral as their focal point, the Palliser series moves on to the high politics of parliament and Westminster. And much as the interest in clerical life ebbs and flows in the Barchester series, so too politics comes into prominence and recedes through the Palliser novels.&lt;/p&gt;
+			&lt;p&gt;In &lt;i&gt;Can You Forgive Her?&lt;/i&gt;, political aspiration is present throughout, though personal politics comes in for closer scrutiny than the parliamentary variety. The exploration of whether others can forgive Alice parallels the need for almost every other character in the novel to be forgiven for something by someone. Trollope also examines closely the question of whether Alice can forgive herself, or recieve the forgiveness of others. And he pointedly invites the “gentle reader” to reflect on their own preparedness to forgive.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/19500</dc:source>
 		<dc:source>https://archive.org/details/canyouforgiveher00trolrich</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<meta property="se:production-notes">[1. mismatched dashes] "Glen-cowrer" and "Glencowrer" are retained as-is, since the former is the speech of Lady Glencora; the latter is the speech of Mr. Bott. [2. fragmented/embedded letters] In chs. 18, 36, and 54 there are letters broken or embedded in context. These use `span` with the `epub:type` semantics (cf. Shackleton *South!*). [3. titlecase] The title in chapter-75.xhtml is French, but the `title` element does not permit semantics.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Can_You_Forgive_Her%3F</meta>
@@ -65,10 +68,10 @@
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n78089077</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">John Singer Sargent</dc:contributor>
+		<meta property="file-as" refines="#artist">Sargent, John Singer</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/John_Singer_Sargent</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n50019335</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Joseph E. Loewenstein</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Loewenstein, Joseph E.</meta>
