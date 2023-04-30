@@ -58,7 +58,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/19500</dc:source>
 		<dc:source>https://archive.org/details/canyouforgiveher00trolrich</dc:source>
 		<meta property="se:production-notes">[1. mismatched dashes] "Glen-cowrer" and "Glencowrer" are retained as-is, since the former is the speech of Lady Glencora; the latter is the speech of Mr. Bott. [2. fragmented/embedded letters] In chs. 18, 36, and 54 there are letters broken or embedded in context. These use `span` with the `epub:type` semantics (cf. Shackleton *South!*). [3. titlecase] The title in chapter-75.xhtml is French, but the `title` element does not permit semantics.</meta>
-		<meta property="se:word-count">320932</meta>
+		<meta property="se:word-count">320926</meta>
 		<meta property="se:reading-ease.flesch">80.51</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Can_You_Forgive_Her%3F</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/anthony-trollope_can-you-forgive-her</meta>
